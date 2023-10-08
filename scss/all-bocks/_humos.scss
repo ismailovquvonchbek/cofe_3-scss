@@ -1,0 +1,82 @@
+.humos {
+    margin: 0;
+    padding: 0;
+
+    .container {
+        border-radius: 10px;
+        background: #2C343E;
+        margin-bottom: 168px;
+    }
+
+    &__info {
+        width: 760px;
+        height: 1px;
+        background-color: #FDD6BA;
+        position: relative;
+        margin-top: 125px;
+        margin-left: 100px;
+        margin-bottom: 82px;
+        display: inline-block;
+    }
+
+    &__span {
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1px #0E8784;
+        display: inline-block;
+        position: absolute;
+        margin-top: -15px;
+        margin-left: -16px;
+    }
+
+    &__span:nth-child(2) {
+        margin-left: 349px;
+    }
+
+    &__span:nth-child(3) {
+        margin-left: 745px;
+    }
+
+
+    &__list {
+        display: flex;
+        margin-left: 45px;
+
+    }
+
+    &__item + &__item {
+        margin-left: 95px;
+    }
+
+
+    &__title {
+        color: #FDD6BA;
+        font-family: "Fraunces";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        margin-bottom: 38px;
+    }
+
+    &__heading {
+        width: 155px;
+        color: #fff;
+        font-family: "Fraunces";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 900;
+        margin-bottom: 42px;
+    }
+
+    &__text {
+        width: 285px;
+        color: #fff;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        padding-bottom: 98px;
+    }
+}

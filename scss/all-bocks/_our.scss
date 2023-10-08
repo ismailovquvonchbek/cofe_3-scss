@@ -1,0 +1,202 @@
+.our {
+    margin: 0;
+    padding: 0;
+
+    .container {
+        display: flex;
+    }
+
+    &__span {
+        color: #83888F;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        opacity: 0.3;
+        cursor: pointer;
+    }
+
+    &--span {
+        color: #0E8784;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    &__inline {
+        color: #333d4b;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        opacity: 0.5;
+        margin-left: 28.5px;
+        margin-bottom: 24px;
+        display: inline-block;
+    }
+
+
+
+
+    &__line {
+        width: 255px;
+        height: 1px;
+        opacity: 0.25;
+        background: #83888F;
+        margin-bottom: 24px;
+        display: block;
+    }
+
+    &__list {
+        margin-left: 125px;
+    }
+
+
+    &__heading {
+        color: #83888F;
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-weight: 900;
+        margin-bottom: 56px;
+    }
+
+    &__img {
+        margin-left: 805px;
+        margin-top: -175px;
+    }
+
+    &__boxs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 88px;
+    }
+
+    &__box1 {
+        width: 228px;
+        border-radius: 8px;
+        background: #F4F1EB;
+    }
+
+
+
+    &__box2 {
+        width: 228px;
+        border-radius: 8px;
+        background: #0E8784;
+    }
+
+    &__box3 {
+        width: 228px;
+        border-radius: 8px;
+        background: #FDD6BA;
+    }
+
+    &__title {
+        color: #333D4B;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-top: 32px;
+        margin-left: 28px;
+        margin-bottom: 24px;
+        display: inline-block;
+    }
+
+    &__text {
+        width: 172px;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-left: 28px;
+        margin-bottom: 84px;
+        display: inline-block;
+    }
+
+    &__title2 {
+        color: #fff;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-top: 32px;
+        margin-left: 28px;
+        margin-bottom: 24px;
+        display: inline-block;
+    }
+
+    &__text2 {
+        width: 172px;
+        color: #fff;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-left: 28px;
+        margin-bottom: 84px;
+        display: inline-block;
+    }
+
+    &__display {
+        border-radius: 10px;
+        background: #2C343E;
+        margin-bottom: 40px;
+    }
+
+    &__headline {
+        color: #FFF;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        padding-left: 64px;
+        padding-top: 27px;
+    }
+
+    &__p {
+        width: 602px;
+        color: #FFF;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 40px;
+        padding-left: 64px;
+        padding-bottom: 24px;
+    }
+
+    &__span2 {
+        color: #0E8784;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    &__button {
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 25px;
+        border-radius: 6px;
+        background: #66D2CF;
+        border: none;
+        margin-left: 605px;
+        padding: 16px 35px;
+        margin-bottom: 168px;
+        border: 3px solid #66D2CF;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            border: 3px solid #000;
+        }
+    }
+}

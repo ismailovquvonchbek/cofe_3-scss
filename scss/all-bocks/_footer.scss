@@ -1,0 +1,43 @@
+.footer {
+    background: #2C343E;
+
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    &__info {
+        margin-left: 102px;
+    }
+
+    &__link {
+        color: #83888F;
+        font-family: "Barlow";
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &__link+&__link {
+        padding-left: 33px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-left: 369px;
+    }
+
+    &__item + &__item {
+        padding-left: 30px;
+    }
+
+    path:hover {
+        fill: #33fdff;
+    }
+}
